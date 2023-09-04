@@ -7,4 +7,5 @@ void main(List<String> arguments) {
 
   print(p1.getNome());
   print(p1.getEndereco());
+  print(p1);
 }

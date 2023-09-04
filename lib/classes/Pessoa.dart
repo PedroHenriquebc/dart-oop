@@ -12,10 +12,16 @@ class Pessoa{
 
   String getEndereco() {
     return _endereco;
-  }
+  } 
 
   void setEndereco(String endereco) {
     _endereco = endereco;
+  }
+
+  @override
+  String toString() {
+    return 
+    {"Nome": _nome, "Endereço": _endereco}.toString();
   }
 }
 
