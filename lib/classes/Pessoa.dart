@@ -1,5 +1,5 @@
 class Pessoa{
-  String _nome = ""; // nullable safety mas pode ser => String? nome;
+  String _nome = ""; // nullable safety mas pode ser => String? nome; (para poder receber null)
   String _endereco = ""; // underline antes do nome para encapsular como privado
 
   Pessoa (String nome, String endereco) {
