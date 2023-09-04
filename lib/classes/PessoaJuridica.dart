@@ -1,7 +1,7 @@
 import 'package:dart_oop/classes/PessoaAbstract.dart';
 import 'package:dart_oop/enums/TipoNotificacao.dart';
 
-class PessoaJuridica extends PessoaAbstract {
+class PessoaJuridica extends Pessoa {
   String _cnpj = "";
 
   PessoaJuridica(String nome, String endereco, String cnpj,

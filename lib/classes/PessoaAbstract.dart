@@ -1,11 +1,11 @@
 import 'package:dart_oop/enums/TipoNotificacao.dart';
 
-abstract class PessoaAbstract{
+abstract class Pessoa{
   String _nome = ""; // nullable safety mas pode ser => String? nome; (para poder receber null)
   String _endereco = ""; // underline antes do nome para encapsular como privado
   TipoNotificacao _tipoNotificacao = TipoNotificacao.NENHUM;
 
-  PessoaAbstract (String nome, String endereco, {TipoNotificacao tipoNotificacao = TipoNotificacao.NENHUM}) {
+  Pessoa (String nome, String endereco, {TipoNotificacao tipoNotificacao = TipoNotificacao.NENHUM}) {
     _nome = nome;
     _endereco = endereco;
     _tipoNotificacao = tipoNotificacao;
