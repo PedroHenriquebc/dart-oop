@@ -2,6 +2,11 @@ class Pessoa{
   String _nome = ""; // nullable safety mas pode ser => String? nome;
   String _endereco = ""; // underline antes do nome para encapsular como privado
 
+  Pessoa (String nome, String endereco) {
+    _nome = nome;
+    _endereco = endereco;
+  }
+  
   String getNome() {
     return _nome;
   }
